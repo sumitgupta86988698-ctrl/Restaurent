@@ -1,0 +1,6 @@
+{
+  "name": "Rajkamal Mess and Restaurant",
+  "description": "Nagpur's premium homemade Thali & dinner kitchen delivery app with digital plate builder, custom spices slider, and order system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

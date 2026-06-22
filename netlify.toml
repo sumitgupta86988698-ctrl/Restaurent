@@ -1,0 +1,12 @@
+# Netlify Configuration File for Rajkamal Mess and Restaurant
+# Ensures zero-setup deployment on Netlify with automated builds and clean routing.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redirect all requests to index.html for smooth client-side rendering
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
